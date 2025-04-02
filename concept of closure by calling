@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <script>
+  function abc()
+{
+var a = 5;
+var b = 4;
+function def()
+{
+  console.log("The outer variable 1 is ",a);
+console.log("The outer variable 2 is ",b);
+}
+return def;
+}
+const closure - abc();
+closure();
+</script>
+  </body>
+  <html>
